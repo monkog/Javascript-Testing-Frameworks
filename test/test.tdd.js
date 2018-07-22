@@ -73,3 +73,7 @@ test('9', assert => {
     assert.notThrows(() => comp.stop);
     assert.notThrows(() => comp.timer);
 });
+
+test('10', assert => {
+    assert.true(false, "Travis will fail");
+});
