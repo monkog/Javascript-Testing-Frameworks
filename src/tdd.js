@@ -6,6 +6,7 @@ class component {
         this.timeout = timeout;
         this.timer = null;
 	console.log('hello!');
+	console.log('hello!');
     }
 
     renderImg () {
