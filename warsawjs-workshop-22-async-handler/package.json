@@ -1,0 +1,18 @@
+{
+    "private": true,
+    "name": "warsawjs-workshop-22-async-handler",
+    "description": "",
+    "version": "1.0.0",
+    "license": "MIT",
+    "scripts": {
+        "clear:all": "rm -rf node_modules/",
+        "test": "npm run test:unit",
+        "test:unit": "mocha"
+    },
+    "dependencies": {
+        "sinon": "^6.1.4"
+    },
+    "devDependencies": {
+        "mocha": "^5.2.0"
+    }
+}

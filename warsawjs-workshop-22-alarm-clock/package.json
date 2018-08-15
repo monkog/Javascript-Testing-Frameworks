@@ -1,0 +1,14 @@
+{
+    "name": "warsawjs-workshop-22-alarm-clock",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "test": "painless test/**.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "painless": "^0.9.5"
+    }
+}

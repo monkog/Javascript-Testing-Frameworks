@@ -1,0 +1,21 @@
+{
+    "private": true,
+    "name": "warsawjs-workshop-22-code-coverage",
+    "description": "",
+    "version": "1.0.0",
+    "license": "MIT",
+    "scripts": {
+        "clear": "rm -rf dist/ coverage/",
+        "clear:all": "rm -rf node_modules/ && npm run clear",
+        "test": "npm run test:jasmine",
+        "test:jasmine": "jasmine JASMINE_CONFIG_PATH=test/unit/jasmine.json",
+        "test:mocha": "mocha test/**/*.js",
+        "coverage": "nyc npm run test"
+    },
+    "dependencies": {
+        "istanbul": "^0.4.5",
+        "jasmine": "^3.1.0",
+        "nyc": "^12.0.2"
+    },
+    "devDependencies": {}
+}

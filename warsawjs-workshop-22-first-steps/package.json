@@ -1,0 +1,28 @@
+{
+    "private": true,
+    "name": "warsawjs-workshop-22-first-steps",
+    "description": "",
+    "version": "1.0.0",
+    "license": "MIT",
+    "scripts": {
+        "clear:all": "rm -rf node_modules/",
+        "test": "npm run test:unit:prettify",
+        "test:unit": "tape test/**.js",
+        "test:unit:spec": "tape test/**.js | tap-spec",
+        "test:unit:dot": "tape test/**.js | tap-dot",
+        "test:unit:tnyan": "tape test/**.js | tnyan",
+        "test:unit:prettify": "tap-prettify test/**.js",
+        "test:unit:diff": "tape test/**.js | tap-diff",
+        "test:unit:notify": "tape test/**.js | tap-notify"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "tap-diff": "^0.1.1",
+        "tap-dot": "^2.0.0",
+        "tap-notify": "^1.0.0",
+        "tap-nyan": "^1.1.0",
+        "tap-prettify": "0.0.2",
+        "tap-spec": "^5.0.0",
+        "tape": "^4.9.1"
+    }
+}
