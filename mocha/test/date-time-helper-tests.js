@@ -1,4 +1,4 @@
-const { DateTimeHelper } = require('../src/date-time-helper');
+const { DateTimeHelper } = require('../../src/date-time-helper');
 const mocha = require('mocha');
 const sinon = require('sinon');
 const { assert } = require('./my-assert');

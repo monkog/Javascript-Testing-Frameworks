@@ -1,4 +1,4 @@
-const { dog, cat } = require("../../../src/index");
+const { dog, cat } = require("../../../../src/animals");
 
 describe('', () => {
     it('', () => {

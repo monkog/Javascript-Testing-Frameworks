@@ -1,5 +1,5 @@
 import test from 'ava';
-const { component } = require("../src/tdd");
+const { component } = require("../../src/img-render");
 const jsdom = require('jsdom'); 
 const { JSDOM } = jsdom;
 const dom = new JSDOM(); 
