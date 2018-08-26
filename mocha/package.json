@@ -1,13 +1,25 @@
 {
     "private": true,
-    "name": "warsawjs-workshop-22-async-handler",
+    "name": "mocha-tests",
     "description": "",
     "version": "1.0.0",
     "license": "MIT",
     "scripts": {
         "clear:all": "rm -rf node_modules/",
         "test": "npm run test:unit",
-        "test:unit": "mocha"
+        "test:unit": "mocha",
+        "test:dot": "mocha test/ --reporter dot",
+        "test:nyan": "mocha test/ --reporter nyan",
+        "test:tap": "mocha test/ --reporter tap",
+        "test:landing": "mocha test/ --reporter landing",
+        "test:list": "mocha test/ --reporter list",
+        "test:progress": "mocha test/ --reporter progress",
+        "test:json": "mocha test/ --reporter json",
+        "test:json-stream": "mocha test/ --reporter json-stream",
+        "test:min": "mocha test/ --reporter min",
+        "test:doc": "mocha test/ --reporter doc",
+        "test:markdown": "mocha test/ --reporter markdown",
+        "test:xunit": "mocha test/ --reporter xunit"
     },
     "dependencies": {
         "sinon": "^6.1.4"
