@@ -1,6 +1,6 @@
 const Animals = require('../../src/animals');
 
-describe('Animals', () => {
+describe('Slow test annotation', () => {
     it('should be a slow tortoise', (done) => {
         Animals.tortoise().then(() =>{
             done();

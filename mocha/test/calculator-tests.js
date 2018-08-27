@@ -3,7 +3,7 @@ var assert = require('assert');
 
 let tries = 1;
 
-describe('Calculator', () => {
+describe('Simple passing tests', () => {
     it('should return 3 when adding 1 to 2', () => {
         let result = Calculator.add(1, 2);
         assert.equal(result, 3);
@@ -17,13 +17,13 @@ describe('Failing tests', () => {
     });
 });
 
-describe.skip('Skipped tests', () => {
-    it('this test will deffinetely be skipped', () => {
-        assert.fail();
+describe('Skipped tests', () => {
+    describe.skip('Skipped suite', () => {    
+        it('this test will deffinetely be skipped', () => {
+            assert.fail();
+        });
     });
-});
-
-describe('Some other skipped tests', () => {
+    
     it.skip('this test should not be run', () => {
         assert.fail();
     });
