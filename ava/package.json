@@ -19,16 +19,5 @@
         "tap-nyan": "^1.1.0"
     },
     "ava": {
-        "files": [
-            "!test/test.img-render.js",
-            "test/*.js"
-        ],
-        "watch": false,
-        "cache": true,
-        "concurrency": 5,
-        "failFast": false,
-        "failWithoutAssertions": false,
-        "tap": false,
-        "verbose": true
     }
 }

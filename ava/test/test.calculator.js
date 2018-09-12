@@ -10,7 +10,7 @@ test.skip('this test should not be run', assert => {
     assert.fail();
 });
 
-tes('this test should fail', assert => {
+test('this test should fail', assert => {
     assert.fail();
 });
 
