@@ -4,6 +4,9 @@
     "description": "",
     "scripts": {
         "test": "ava",
+        "test:watch": "ava --watch",
+        "test:verbose": "ava --verbose",
+        "test:tap": "ava --tap",
         "test:nyan": "ava --tap | tap-nyan",
         "test:update-snapshots": "ava --update-snapshots"
     },
@@ -14,5 +17,18 @@
         "ava": "^0.25.0",
         "jsdom": "^11.11.0",
         "tap-nyan": "^1.1.0"
+    },
+    "ava": {
+        "files": [
+            "!test/test.img-render.js",
+            "test/*.js"
+        ],
+        "watch": false,
+        "cache": true,
+        "concurrency": 5,
+        "failFast": false,
+        "failWithoutAssertions": false,
+        "tap": false,
+        "verbose": true
     }
 }
