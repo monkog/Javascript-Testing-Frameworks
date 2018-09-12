@@ -16,7 +16,8 @@
     "devDependencies": {
         "ava": "^0.25.0",
         "jsdom": "^11.11.0",
-        "tap-nyan": "^1.1.0"
+        "tap-nyan": "^1.1.0",
+        "power-assert": "^1.6.1"
     },
     "ava": {
     }
