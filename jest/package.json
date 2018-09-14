@@ -1,0 +1,15 @@
+{
+    "private": true,
+    "name": "jest_unit_tests",
+    "description": "Jest unit testing library overview",
+    "version": "1.0.0",
+    "license": "MIT",
+    "scripts": {
+        "clear:all": "rm -rf node_modules/",
+        "test": "npm run test:unit",
+        "test:unit": "jest"
+    },
+    "devDependencies": {
+        "jest": "^23.6.0"
+    }
+}
