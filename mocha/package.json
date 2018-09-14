@@ -1,6 +1,6 @@
 {
     "private": true,
-    "name": "mocha-tests",
+    "name": "Mocha unit testing library overview",
     "description": "",
     "version": "1.0.0",
     "license": "MIT",
