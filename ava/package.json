@@ -1,7 +1,7 @@
 {
-    "name": "AVA unit testing library overview",
+    "name": "ava_unit_tests",
+    "description": "AVA unit testing library overview",
     "version": "1.0.0",
-    "description": "",
     "scripts": {
         "test": "ava",
         "test:watch": "ava --watch",

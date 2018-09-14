@@ -1,7 +1,7 @@
 {
-    "name": "Painless unit testing library overview",
+    "name": "painless_unit_tests",
+    "description": "Painless unit testing library overview",
     "version": "1.0.0",
-    "description": "",
     "scripts": {
         "test": "painless test/**.js"
     },

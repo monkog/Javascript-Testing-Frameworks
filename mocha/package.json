@@ -1,7 +1,7 @@
 {
     "private": true,
-    "name": "Mocha unit testing library overview",
-    "description": "",
+    "name": "mocha_unit_tests",
+    "description": "Mocha unit testing library overview",
     "version": "1.0.0",
     "license": "MIT",
     "scripts": {

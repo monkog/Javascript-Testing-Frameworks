@@ -1,7 +1,7 @@
 {
     "private": true,
-    "name": "Jasmine unit testing library overview",
-    "description": "",
+    "name": "jasmine_unit_tests",
+    "description": "Jasmine unit testing library overview",
     "version": "1.0.0",
     "license": "MIT",
     "scripts": {
