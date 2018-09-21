@@ -3,7 +3,7 @@ module.exports = {
     "bail": false,
     "collectCoverage": true,
     "collectCoverageFrom": [
-        "../src/*.js"
+        "../src/*.{js}"
       ],
     "coverageDirectory": "./coverage",
     "notify": true

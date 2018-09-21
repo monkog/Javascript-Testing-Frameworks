@@ -8,6 +8,7 @@
         "clear:all": "rm -rf node_modules/",
         "test": "npm run test:unit",
         "test:unit": "jest",
+        "test:coverage": "jest --coverage",
         "lint": "eslint __tests__/*.js"
     },
     "devDependencies": {

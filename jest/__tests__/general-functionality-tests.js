@@ -28,7 +28,7 @@ describe.skip("the other skipped test block", () => {
   });
 });
 
-test('this test fails due to no assert', () => {
+test('this test has no assert', () => {
 });
 
 test('this test fails', () => {
