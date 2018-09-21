@@ -27,7 +27,7 @@ test('power assert functionality', t => {
 	t.true(a.test(b) || b === c);
 });
 
-test.after(t=>{
+test.after(t => {
     console.log('run this method once after all tests');
 });
 
